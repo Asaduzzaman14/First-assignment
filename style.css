@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-sersif;
+}
+
+
+h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+p{
+    color:#231f3d
+}
+
+.header-content{
+    display:flex;
+    margin:30px;
+    padding:20px;
+    
+}
+.half-width{
+    width:50%;
+    margin:10px;
+    padding:10px
+    
+}
+.header-heading{
+    font-size: 45px;
+    padding: 10px;
+    margin-left: 8px;
+   
+}
+.header-heading::after{
+    content: '';
+    width:4px;
+    height:23%;
+    left:70px;
+    top:120px;
+    border-radius: 20px;
+    position:absolute;
+    background: linear-gradient(#ba420a,#ba420a);
+}
+.color-heding{
+    color:#e99424ea;
+}
+.header-desc{
+    color:rgb(25, 24, 34);
+}
+.button{
+    margin:30px 0;
+    padding:15px 35px;
+    background-color: #ba420a;
+    border:none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border-bottom: 3px solid #1b0b03;
+   
+}
+.button a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+}
+.button:hover{
+    cursor:pointer;
+    background-color: #c55d07;
+}
+.img-div{
+   width:80%;
+   margin:0 auto;
+   text-align: center;
+  
+}
+.img-div img{
+    width:100%;
+    border-radius: 100%;
+    transition: .5s;
+    
+}
+ img:hover{
+    transform:scale(1.05);
+}
+
+/************************/
+/* hader section end */
+/************************/
+
+
+
+/************************/
+/* card section start */
+/************************/
+section{
+    margin:30px; 
+    padding:20px;
+}
+.card-hedding{
+   text-align: center;
+    
+}
+
+.card-container{
+    display:flex;
+}
+.card{
+    width:30%;
+    margin:20px;
+    padding:20px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.card:hover{
+    transform: translatey(-10px);
+}
+.card img{
+    width:100px;
+    transition: .5s;
+}
+.card-details{
+    font-weight:300;
+    font-size: 15px;
+    color:#322f2f;
+} 
+.color1{
+    background:#15b07fc0;
+}
+.color2{
+    background:#08cfe580;
+}
+.color3{
+    background:#f09144a9;
+}
+/************************/
+/* card section design end */
+/************************/
+
+
+
+/************************/
+/* Work section start */
+/************************/
+.work-section{
+    margin-top: 60px; 
+    
+}
+#coding{
+    background-image: url(images/dream-bg.png); 
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-y:center ;
+}
+
+.containers{
+    display:flex;
+}
+
+.work-image img {
+   width: 350px;
+   margin:40px;
+    padding:20px;
+    transition: .5s;
+
+}
+.work-desc{
+    width:60%;
+    margin:40px;
+    padding:20px;
+
+}
+
+
+/************************/
+/* Work section end */
+/************************/
+
+
+
+
+/************************/
+/* #communnity section start */
+/************************/
+#communnity{
+    background-image: url(images/shape-1.png);
+   background-size: 100px;
+   background-repeat: no-repeat;
+   background-position:right;
+  background-position-y: 350px;
+}
+
+
+/************************/
+/* app section start */
+/************************/
+.Application-section{
+        display: flex;
+}
+.Application-section img{
+    width:300px;
+    margin: 0 auto;
+    transition: .5s;
+}
+.app-heding{
+    text-align: center;
+}
+#ApplicationImg{
+    padding:50px;
+    align-items: center;
+    margin:0 50px;
+   
+}
+#Application{
+    padding:50px;
+    margin: auto;
+}
+.footer{
+    background: #0d1032;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    font-style:italic;
+}
+.footer p{
+    color:#fff;
+}
