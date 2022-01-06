@@ -36,9 +36,9 @@ p{
 .header-heading::after{
     content: '';
     width:4px;
-    height:23%;
+    height:20%;
     left:70px;
-    top:120px;
+    top:125px;
     border-radius: 20px;
     position:absolute;
     background: linear-gradient(#ba420a,#ba420a);
