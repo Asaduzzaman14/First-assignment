@@ -199,9 +199,11 @@ section{
         display: flex;
 }
 .Application-section img{
-    width:300px;
+    width:500px;
     margin: 0 auto;
     transition: .5s;
+
+
 }
 .app-heding{
     text-align: center;
@@ -209,15 +211,20 @@ section{
 #ApplicationImg{
     padding:50px;
     align-items: center;
-    margin:0 50px;
-   
+    text-align: center;
+    /* margin:0 50px */
+    margin-top:40px;
+  
+}
+#ApplicationImg img{
+    border-radius: 10px;
 }
 #Application{
     padding:50px;
     margin: auto;
 }
 .footer{
-    background: #0d1032;
+    background: #080a21;
     color:#fff;
     text-align: center;
     padding:20px;
